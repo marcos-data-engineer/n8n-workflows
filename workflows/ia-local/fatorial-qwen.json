@@ -1,0 +1,75 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "5180a7b7-090f-4ce5-9e3d-87286324c9cc",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "modelId": {
+          "__rl": true,
+          "value": "qwen2.5:7b",
+          "mode": "list",
+          "cachedResultName": "qwen2.5:7b"
+        },
+        "messages": {
+          "values": [
+            {
+              "content": "Crie uma função simples em Python que calcula o fatorial de um número e inclua comentários explicativos."
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.ollama",
+      "typeVersion": 1,
+      "position": [
+        224,
+        0
+      ],
+      "id": "b5690e8a-5664-4f33-a04e-bfa134cb9429",
+      "name": "Message a model",
+      "credentials": {
+        "ollamaApi": {
+          "id": "FiKPRUBgkzEjGpj9",
+          "name": "Ollama account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Message a model",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "a375df34-25ff-4a07-adcc-b99f886de5ce",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "5ccd6b00b83f6710b2334f3aab87a566f569556dbefe1faaacea4c5e93934861"
+  },
+  "nodeGroups": [],
+  "id": "z1ZaPUZEqSckv1Ss",
+  "tags": []
+}
