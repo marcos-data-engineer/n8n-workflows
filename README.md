@@ -35,7 +35,9 @@ n8n-workflows/
 🚀 Workflows Disponíveis
 
 🧠 IA Local & Automação Privada (/workflows/ia-local)
-Geração de Código com Qwen 2.5: Fluxo automatizado no n8n conectado à API do Ollama local executando o modelo qwen2.5. Permite processar requisições de código e análise técnica sem tráfego de dados para APIs proprietárias na nuvem.
+Geração de Código com Qwen 2.5: Fluxo automatizado no n8n conectado à API do Ollama local executando o modelo qwen2.5.
+
+Permite processar requisições de código e análise técnica sem tráfego de dados para APIs proprietárias na nuvem.
 
 ⚙️ Como Importar e Executar
 
@@ -73,7 +75,7 @@ Marcos Vasconcellos de Andrade
 
 Senior Linux Infrastructure, Automation & Data Architecture Specialist
 
-Blog: Data Architecture & AI Insights
+Blog: Data Architecture & AI Insights - https://marcos-data-engineer.github.io/blog/
 
 LinkedIn: linkedin.com/in/marcos-vasconcellos-de-andrade-098b07297
 
