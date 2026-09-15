@@ -88,4 +88,4 @@ LinkedIn: linkedin.com/in/marcos-vasconcellos-de-andrade-098b07297
 
 GitHub: @marcos-data-engineer
 
-⭐ Se este repositório for útil para seus projetos de automação, considere deixar uma estrela!
+⭐ Se este repositório for útil para seus projetos de automação, considere deixar uma estrela e me seguir!
