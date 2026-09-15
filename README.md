@@ -35,6 +35,7 @@ n8n-workflows/
 🚀 Workflows Disponíveis
 
 🧠 IA Local & Automação Privada (/workflows/ia-local)
+
 Geração de Código com Qwen 2.5: Fluxo automatizado no n8n conectado à API do Ollama local executando o modelo qwen2.5.
 
 Permite processar requisições de código e análise técnica sem tráfego de dados para APIs proprietárias na nuvem.
