@@ -31,17 +31,21 @@ n8n-workflows/
 │       └── workflow-geracao-codigo-qwen2.5.json  # Geração e análise de código local via Ollama
 ├── .gitignore
 └── README.md
+
 🚀 Workflows Disponíveis
+
 🧠 IA Local & Automação Privada (/workflows/ia-local)
 Geração de Código com Qwen 2.5: Fluxo automatizado no n8n conectado à API do Ollama local executando o modelo qwen2.5. Permite processar requisições de código e análise técnica sem tráfego de dados para APIs proprietárias na nuvem.
 
 ⚙️ Como Importar e Executar
+
 1. Pré-requisitos
 Certifique-se de ter o Docker e o Ollama rodando no seu ambiente local:
 
 Bash
 # Baixar o modelo Qwen 2.5 no Ollama
 ollama pull qwen2.5
+
 2. Subir o n8n via Docker
 Bash
 docker run -d \
@@ -49,6 +53,7 @@ docker run -d \
   -p 5678:5678 \
   -v n8n_data:/home/node/.n8n \
   docker.n8n.io/n8nio/n8n
+
 3. Importar o Workflow
 Acesse o painel do n8n em http://localhost:5678.
 
@@ -59,9 +64,11 @@ Selecione o arquivo .json desejado dentro do diretório workflows/ia-local/.
 Ajuste os nós de credenciais/HTTP Request para apontar para a URL do seu Ollama local (http://host.docker.internal:11434 ou IP da sua interface Docker).
 
 🔒 Privacidade & Compliance (LGPD)
+
 Todos os fluxos contidos nesta pasta foram desenvolvidos sob a premissa de Private AI (IA On-Premise). Os dados processados pelos nós do n8n e modelos do Ollama permanecem restritos à máquina/servidor local, garantindo zero vazamento de informações sensíveis.
 
 👨‍💻 Autor
+
 Marcos Vasconcellos de Andrade
 
 Senior Linux Infrastructure, Automation & Data Architecture Specialist
@@ -73,11 +80,3 @@ LinkedIn: linkedin.com/in/marcos-vasconcellos-de-andrade-098b07297
 GitHub: @marcos-data-engineer
 
 ⭐ Se este repositório for útil para seus projetos de automação, considere deixar uma estrela!
-
-
-<FollowUp>
-Gostaria que eu gerasse também um arquivo `docker-compose.yml` pré-configurado com n8n e Ollama no mesmo barramento para você adicionar na raiz deste repositório?
-</FollowUp>
-
-<ElicitationsGroup>
-</ElicitationsGroup>
