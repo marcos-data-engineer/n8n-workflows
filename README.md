@@ -36,9 +36,11 @@ n8n-workflows/
 
 🧠 IA Local & Automação Privada (/workflows/ia-local)
 
-Geração de Código com Qwen 2.5: Fluxo automatizado no n8n conectado à API do Ollama local executando o modelo qwen2.5.
+Geração de Código com Qwen 2.5: Fluxo automatizado no n8n conectado à API do Ollama local executando
+o modelo qwen2.5.
 
-Permite processar requisições de código e análise técnica sem tráfego de dados para APIs proprietárias na nuvem.
+Permite processar requisições de código e análise técnica sem tráfego de dados para APIs
+proprietárias na nuvem.
 
 ⚙️ Como Importar e Executar
 
@@ -64,11 +66,15 @@ Clique em Workflows > Import from File.
 
 Selecione o arquivo .json desejado dentro do diretório workflows/ia-local/.
 
-Ajuste os nós de credenciais/HTTP Request para apontar para a URL do seu Ollama local (http://host.docker.internal:11434 ou IP da sua interface Docker).
+Ajuste os nós de credenciais/HTTP Request para apontar para a URL do seu
+Ollama local (http://host.docker.internal:11434 ou IP da sua interface Docker).
 
 🔒 Privacidade & Compliance (LGPD)
 
-Todos os fluxos contidos nesta pasta foram desenvolvidos sob a premissa de Private AI (IA On-Premise). Os dados processados pelos nós do n8n e modelos do Ollama permanecem restritos à máquina/servidor local, garantindo zero vazamento de informações sensíveis.
+Todos os fluxos contidos nesta pasta foram desenvolvidos sob a premissa
+de Private AI (IA On-Premise). Os dados processados pelos nós do n8n e
+modelos do Ollama permanecem restritos à máquina/servidor local,
+garantindo zero vazamento de informações sensíveis.
 
 👨‍💻 Autor
 
